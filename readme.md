@@ -1,6 +1,12 @@
-#k-convert
+# k-convert
 
-Start with
+## Install
+
+```sh
+npm i k-convert
+```
+
+## Usage
 
 ```sh
 const kconvert = require("../k-convert");
@@ -13,6 +19,8 @@ kconvert.convertTo(420500)
 ```
 
 Returns "420.5k"
+
+---
 
 and convert strings using the k-metric to float numbers:
 
