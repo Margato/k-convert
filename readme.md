@@ -9,7 +9,7 @@ npm i k-convert
 ## Usage
 
 ```sh
-const kconvert = require("../k-convert");
+const kconvert = require("k-convert");
 ```
 
 And then, you are able to convert float numbers to the k-metric:
