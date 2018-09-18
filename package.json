@@ -20,5 +20,9 @@
         "formatter"
     ],
     "author": "Margato",
-    "license": "ISC"
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Margato/k-convert.git"
+    }
 }
