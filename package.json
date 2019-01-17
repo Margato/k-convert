@@ -1,6 +1,6 @@
 {
     "name": "k-convert",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Convert a number to k-metric or a k-metric number to a long number",
     "main": "index.js",
     "scripts": {
