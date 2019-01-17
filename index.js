@@ -7,7 +7,8 @@ module.exports = {
      * @return {numberConverted} The k-metric string of the number
      */
     convertTo: number => {
-        let numberConverted = "",
+        if (number < 1000) return number.toString();
+	   	let numberConverted = "",
             times = 0,
             aux = Math.trunc(number / 100) * 100;
         while (aux / 1000 >= 1) {
